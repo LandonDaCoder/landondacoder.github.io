@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+}
+
+/* Common box styling */
+.box {
+    background-color: lightgrey;
+    border: 2px solid white;
+    padding: 10px;
+    overflow-wrap: break-word;
+}
+
+.body {
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* Title container styling */
+.title-container {
+    display: flex;
+    align-items: center;
+    margin: 8px 0 20px auto;
+    width: 100%; /* Ensure the container spans the full width */
+}
+
+/* Title styling */
+.title {
+    width: 200px;
+    text-align: right;
+    margin-right: 10px; /* Space between title and title bar */
+}
+
+/* Title bar styling */
+.title-bar {
+    flex-grow: 1;
+    height: 40px; /* Thinner title bar */
+    padding: 0 10px;
+    margin: 0;
+    display: flex;
+    align-items: center; /* Center text vertically */
+}
+
+/* Title bar buttons */
+.title-button {
+    border: 2px solid black; /* Define border thickness and color */
+    border-radius: 50px; /* Make the edges rounded, adjust as needed */
+    background-color: transparent; /* Transparent inside */
+    color: black; /* Text color */
+    padding: 5px 3px; /* Space inside the button */
+    font-size: 16px; /* Text size */
+    text-align: center; /* Center text horizontally */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition effects */
+
+}
+
+.title-button:hover {
+    background-color: black; /* Change background on hover */
+    color: white; /* Change text color on hover */
+}
